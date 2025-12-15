@@ -1,0 +1,329 @@
+@font-face {
+	font-family: 'Maiandra';
+	src: url("../fonts/maiandra.ttf'") format("truetype"),
+		url("../fonts/Maiandra.otf") format("truetype");
+	/* font-weight: 400; // use the matching font-weight here ( 100, 200, 300, 400, etc).
+	font-style: normal; // use the matching font-style here */
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*pencarian utama*/
+.bannerHome {
+	filter: brightness(0.4);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.header-center-top {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.header-center-top2 {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title-brand {
+    font-size: 28px;
+}
+.button-search-home {
+    font-size: 28px;
+    font-weight: bold;
+}
+.form-pencarian-sertifikat {
+	margin-top: 20px;
+	background-color: #eaeaea;
+	padding: 12px;
+}
+.img-cari-sertifikat {
+	box-shadow: 1px 2px 8px 0px rgb(0 0 0 / 13%), 0 1px 2px rgb(0 0 0 / 0%);
+	margin: 22px 0;
+}
+
+/*hasil pencarian*/
+#wrap-member {
+	background-color: #F2F4F7;
+  	background-image: linear-gradient(to right, #F2F4F7 , #fff);
+	height: 100vh;
+}
+.search-navigation {
+    padding-top: 40px;
+}
+.logo-member {
+	width: 85px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+.search-result {
+    background-color: #fff;
+    border-top-left-radius: 60px;
+    padding: 40px 0 40px 40px;
+}
+.img-fluid.type {
+	width: 25px;
+}
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+	margin: 0;
+    padding-left: 0;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: #7d7d7d;
+    background-color: #fff;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.socialbtns .fa:hover {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+.list-group-item {
+    background-color: transparent;
+    border: 0;
+}
+.list-group-item.active {
+    background-color: #fff;
+    border: 0;
+}
+.list-group-item a {
+    color: #FFBE01;
+}
+
+.logo-member-mobile {
+	width: 42px;
+	margin-left: 13px;
+}
+.mobile-menu {
+	display:none;
+	width:100%;
+	background: #f2f4f7;
+	line-height: 1.6em;
+	font-weight: 400;
+	width:100%;
+	position: relative;
+	margin:0 auto;
+}
+
+.mobile-menu .show-menu {
+	text-decoration: none;
+	color: #fff;
+	background: #f2f5f8;
+	padding: 10px 15px;
+	display: none;
+	cursor: pointer;
+}
+
+.mobile-menu .show-menu span{
+   padding-left: 25px;
+}
+
+.mobile-menu input[type=checkbox]{
+    display: none;
+}
+
+.mobile-menu input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+/*preview sertifikat*/
+.sertifikat-preview {
+	background-image: url("../image/certificate solidworks.jpg");
+	background-size: contain;
+	min-height: 400px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.responsive-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.image-caption {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image-caption h2 {
+    font-size: 22px;
+    color: red;
+    margin-bottom: 0;
+}
+.image-caption p {
+    padding-top: 83px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 1024px) {
+	.title-brand {
+	    font-size: 22px;
+	    font-size: 22px;
+	}
+	.button-search-home {
+    	font-size: 22px;
+	}
+	.form-pencarian-sertifikat {
+		padding: 8px 10px;
+	}
+	.header-center-top2 {
+	    width: 70%;
+	    top: 55%;
+	}
+	.image-caption h2 {
+	    font-size: 18px;
+	}
+	.image-caption p {
+	    font-size: 8px;
+		padding-top: 83px;
+	}
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 768px) {
+	.header-center-top {
+    	width: 75%;
+	}
+	.title-brand {
+	    font-size: 18px;
+	}
+	.button-search-home {
+    	font-size: 18px;
+	}
+	.header-center-top2 {
+	    width: 85%;
+	    top: 50%;
+	}
+}
+@media screen and (max-width: 575px) {
+	.header-center-top {
+	    width: 90%;
+	}
+	.form-pencarian-sertifikat {
+	    margin-top: 10px;
+	}
+	.header-center-top .form-control {
+		font-size: 12px;
+	}
+	.header-center-top .btn-warning {
+		font-size: 12px;
+	}
+	.title-brand {
+	    font-size: 12px;
+	}
+	.button-search-home {
+    	font-size: 11px;
+	}
+	.search-result {
+	    padding: 40px 10px;
+	}
+	.header-center-top2 {
+	    width: 95%;
+	    top: 50%;
+	}
+	#wrap-member {
+    	margin-top: -8px;
+    }
+	.search-navigation {
+		display: none;
+	}
+	.mobile-menu {
+		display:block;
+	}
+	.mobile-menu .lines {
+		border-bottom: 15px double #f8f8f8; 
+		border-top: 5px solid #f8f8f8; 
+		content:"";
+		height: 5px; 
+		width:20px;
+		padding-right:15px;
+		float: right;
+	}
+	.mobile-menu ul {
+		position: static;
+		display: none;
+	}
+	.mobile-menu li {
+		margin-bottom: 1px;
+	}
+	.mobile-menu ul li, .mobile-menu li a {
+		width: 100%;
+	}
+	.mobile-menu .show-menu {
+		display:block;
+	}
+	.image-caption {
+	    top: 78%;
+	}
+	.image-caption h2 {
+	    font-size: 16px;
+	}
+	.image-caption p {
+	    font-size: 8px;
+	    padding-top: 74px;
+	}
+}
+@media screen and (max-width: 379px) {
+	.image-caption h2 {
+	    font-size: 14px;
+	}
+	.image-caption p {
+	    font-size: 6px;
+	    padding-top: 58px;
+	}
+	.image-caption {
+		top: 79%;
+	}
+}
+@media screen and (max-width: 320px) {
+	.button-search-home {
+    	font-size: 9px;
+	}
+	.header-center-top2 {
+	    width: 96%;
+	    top: 40%;
+	}
+	.image-caption h2 {
+	    font-size: 13px;
+	}
+	.image-caption p {
+	    font-size: 5px;
+	}
+	.image-caption {
+		top: 78%;
+	}
+}
